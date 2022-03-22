@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "framesnpictures/dto": "^0.6.0"
+        "framesnpictures-laravel/dto": "^0.6.0"
     },
     "require-dev": {
         "orchestra/testbench": ">=3.8"
