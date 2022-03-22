@@ -4,13 +4,13 @@
     "type": "library",
     "authors": [
         {
-            "name": "Chris Cynarski",
-            "email": "chris@cynarski.net"
+            "name": "Bhoopal",
+            "email": "bhoopal10@gmail.com"
         }
     ],
     "require": {
         "php": ">=7.1",
-        "framesnpictures/dto": "^0.5.7"
+        "framesnpictures/dto": "^0.6.0"
     },
     "require-dev": {
         "orchestra/testbench": ">=3.8"
