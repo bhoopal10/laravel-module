@@ -1,0 +1,30 @@
+{
+    "name": "framesnpictures/laravel-module",
+    "description": "Laravel Module Helper",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chris Cynarski",
+            "email": "chris@cynarski.net"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "framesnpictures/dto": "^0.5.7"
+    },
+    "require-dev": {
+        "orchestra/testbench": ">=3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fnp\\Module\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fnp\\Module\\ModuleInit"
+            ]
+        }
+    }
+}
